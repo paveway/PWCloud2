@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CloudFileListViewController" customModule="PWCloud2" customModuleProvider="target">
+            <connections>
+                <outlet property="createToolbarButton" destination="li0-6a-f66" id="dXv-zf-IoT"/>
+                <outlet property="tableView" destination="tEA-bE-hKs" id="nUp-ZA-KPw"/>
+                <outlet property="toolbar" destination="JZB-nS-0Cy" id="EFY-Mx-a6M"/>
+                <outlet property="view" destination="iN0-l3-epB" id="MiF-qb-apY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tEA-bE-hKs">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZB-nS-0Cy">
+                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="hgu-uj-xll"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem systemItem="add" id="li0-6a-f66">
+                            <connections>
+                                <action selector="createToolbarButtonPressed:" destination="-1" id="Y2b-65-6G8"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="vdU-A6-upc"/>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JZB-nS-0Cy" secondAttribute="trailing" id="1bY-wd-NTT"/>
+                <constraint firstItem="JZB-nS-0Cy" firstAttribute="top" secondItem="tEA-bE-hKs" secondAttribute="bottom" id="7Ge-Sh-boD"/>
+                <constraint firstAttribute="trailing" secondItem="tEA-bE-hKs" secondAttribute="trailing" id="83B-Rm-bdg"/>
+                <constraint firstItem="tEA-bE-hKs" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="CnC-b8-jCx"/>
+                <constraint firstItem="tEA-bE-hKs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="LjR-yD-65n"/>
+                <constraint firstItem="JZB-nS-0Cy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="imt-Nb-hFu"/>
+                <constraint firstItem="JZB-nS-0Cy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jbX-T4-Urm"/>
+                <constraint firstAttribute="bottom" secondItem="JZB-nS-0Cy" secondAttribute="bottom" id="qB9-hT-jm8"/>
+                <constraint firstItem="tEA-bE-hKs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="udE-O5-GDc"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

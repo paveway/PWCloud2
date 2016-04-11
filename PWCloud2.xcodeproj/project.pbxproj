@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1B532F1CB67DFE00C9C7AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B532E1CB67DFE00C9C7AA /* AppDelegate.swift */; };
+		3F1B53311CB67DFE00C9C7AA /* CloudFileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B53301CB67DFE00C9C7AA /* CloudFileListViewController.swift */; };
+		3F1B53361CB67DFE00C9C7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B53351CB67DFE00C9C7AA /* Assets.xcassets */; };
+		3F1B53391CB67DFE00C9C7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B53371CB67DFE00C9C7AA /* LaunchScreen.storyboard */; };
+		3F1B53411CB67E4500C9C7AA /* CloudFileListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B53401CB67E4500C9C7AA /* CloudFileListViewController.xib */; };
+		3F5AD55B1CB9FEAD005A9566 /* CoudDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5AD55A1CB9FEAD005A9566 /* CoudDocument.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F1B532B1CB67DFE00C9C7AA /* PWCloud2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PWCloud2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1B532E1CB67DFE00C9C7AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F1B53301CB67DFE00C9C7AA /* CloudFileListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudFileListViewController.swift; sourceTree = "<group>"; };
+		3F1B53351CB67DFE00C9C7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1B53381CB67DFE00C9C7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F1B533A1CB67DFE00C9C7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1B53401CB67E4500C9C7AA /* CloudFileListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CloudFileListViewController.xib; sourceTree = "<group>"; };
+		3F1B53421CB67FCE00C9C7AA /* PWCloud2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PWCloud2.entitlements; sourceTree = "<group>"; };
+		3F5AD55A1CB9FEAD005A9566 /* CoudDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoudDocument.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1B53281CB67DFE00C9C7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1B53221CB67DFE00C9C7AA = {
+			isa = PBXGroup;
+			children = (
+				3F1B532D1CB67DFE00C9C7AA /* PWCloud2 */,
+				3F1B532C1CB67DFE00C9C7AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1B532C1CB67DFE00C9C7AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B532B1CB67DFE00C9C7AA /* PWCloud2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1B532D1CB67DFE00C9C7AA /* PWCloud2 */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B53421CB67FCE00C9C7AA /* PWCloud2.entitlements */,
+				3F1B532E1CB67DFE00C9C7AA /* AppDelegate.swift */,
+				3F1B53301CB67DFE00C9C7AA /* CloudFileListViewController.swift */,
+				3F1B53401CB67E4500C9C7AA /* CloudFileListViewController.xib */,
+				3F5AD55A1CB9FEAD005A9566 /* CoudDocument.swift */,
+				3F1B53351CB67DFE00C9C7AA /* Assets.xcassets */,
+				3F1B53371CB67DFE00C9C7AA /* LaunchScreen.storyboard */,
+				3F1B533A1CB67DFE00C9C7AA /* Info.plist */,
+			);
+			path = PWCloud2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1B532A1CB67DFE00C9C7AA /* PWCloud2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1B533D1CB67DFE00C9C7AA /* Build configuration list for PBXNativeTarget "PWCloud2" */;
+			buildPhases = (
+				3F1B53271CB67DFE00C9C7AA /* Sources */,
+				3F1B53281CB67DFE00C9C7AA /* Frameworks */,
+				3F1B53291CB67DFE00C9C7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PWCloud2;
+			productName = PWCloud2;
+			productReference = 3F1B532B1CB67DFE00C9C7AA /* PWCloud2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1B53231CB67DFE00C9C7AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Paveway;
+				TargetAttributes = {
+					3F1B532A1CB67DFE00C9C7AA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5Q7YHJUK8E;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3F1B53261CB67DFE00C9C7AA /* Build configuration list for PBXProject "PWCloud2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F1B53221CB67DFE00C9C7AA;
+			productRefGroup = 3F1B532C1CB67DFE00C9C7AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1B532A1CB67DFE00C9C7AA /* PWCloud2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1B53291CB67DFE00C9C7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1B53391CB67DFE00C9C7AA /* LaunchScreen.storyboard in Resources */,
+				3F1B53361CB67DFE00C9C7AA /* Assets.xcassets in Resources */,
+				3F1B53411CB67E4500C9C7AA /* CloudFileListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1B53271CB67DFE00C9C7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1B53311CB67DFE00C9C7AA /* CloudFileListViewController.swift in Sources */,
+				3F5AD55B1CB9FEAD005A9566 /* CoudDocument.swift in Sources */,
+				3F1B532F1CB67DFE00C9C7AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F1B53371CB67DFE00C9C7AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1B53381CB67DFE00C9C7AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1B533B1CB67DFE00C9C7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F1B533C1CB67DFE00C9C7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1B533E1CB67DFE00C9C7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PWCloud2/PWCloud2.entitlements;
+				INFOPLIST_FILE = PWCloud2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.paveway.PWCloud2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F1B533F1CB67DFE00C9C7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PWCloud2/PWCloud2.entitlements;
+				INFOPLIST_FILE = PWCloud2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.paveway.PWCloud2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1B53261CB67DFE00C9C7AA /* Build configuration list for PBXProject "PWCloud2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1B533B1CB67DFE00C9C7AA /* Debug */,
+				3F1B533C1CB67DFE00C9C7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1B533D1CB67DFE00C9C7AA /* Build configuration list for PBXNativeTarget "PWCloud2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1B533E1CB67DFE00C9C7AA /* Debug */,
+				3F1B533F1CB67DFE00C9C7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F1B53231CB67DFE00C9C7AA /* Project object */;
+}
